@@ -5,11 +5,11 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'wongames'),
-        username: env('DATABASE_USERNAME', 'wongames'),
-        password: env('DATABASE_PASSWORD', 'wongames123'),
+        host: env('DATABASE_HOST', 'wongames-do-user-10744654-0.b.db.ondigitalocean.com'),
+        port: env.int('DATABASE_PORT', 25060),
+        database: env('DATABASE_NAME', 'defaultdb'),
+        username: env('DATABASE_USERNAME', 'doadmin'),
+        password: env('DATABASE_PASSWORD', 'oB2qufv24dcw3jsg'),
         ssl: env.bool('DATABASE_SSL', false),
       },
       options: {}
